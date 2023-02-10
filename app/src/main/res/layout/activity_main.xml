@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+  >
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="129dp"
+        android:layout_height="87dp"
+        android:background="@drawable/roundbuttons"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:text="@string/start_quiz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="129dp"
+        android:layout_height="87dp"
+        android:background="@drawable/roundbuttons2"
+        android:gravity="center"
+        android:text="Exit"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Instructions"
+        android:layout_width="129dp"
+        android:layout_height="87dp"
+        android:background="@drawable/roundbuttons3"
+        android:gravity="center"
+        android:text="Instructions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Highscore"
+        android:layout_width="197dp"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:text="Last Score: 0"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="215dp"
+        android:layout_height="78dp"
+        android:gravity="center"
+        android:text="QUIZ APP"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+</androidx.constraintlayout.widget.ConstraintLayout>

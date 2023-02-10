@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="start_quiz">Start QUiz</string>
+    <string name="return_back">Return Back</string>
+    <string name="instructions">Instructions:</string>
+    <string name="instructions_are_following_1_there_will_be_10_random_questions_asked_from_the_user_2_the_time_to_complete_the_quiz_will_be_3_mins_3_after_the_time_will_end_the_quiz_will_be_automatically_closed">Instructions are following: 1: There will be 10 random questions asked from the user. 2: The time to complete the quiz will be 3 mins. 3: After the time will end, the quiz will be automatically closed.</string>
+    <string name="_3_after_the_time_will_end_the_quiz_will_be_automatically_closed">3) After the time will end the_quiz will be automatically closed</string>
+    <string name="_2_the_time_to_complete_the_quiz_will_be_3_mins">2) The time to complete the quiz will be 3 mins</string>
+    <string name="instructions_are_following_1_there_will_be_10_random_questions_asked_from_the_user">Instructions are following 1) There will be 10 random questions asked from the user</string>
+</resources>
